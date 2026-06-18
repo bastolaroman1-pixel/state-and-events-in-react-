@@ -4,14 +4,17 @@ import CounterApp from './CounterApp'
 import InputText from './RealTime'
 import Toggle from './Toggle'
 
-import ThemeToggle from './Theme'
+
+import ColorPicker from './ColorPicker'
+
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    {/* <CounterApp/>
+    <CounterApp/>
     <InputText/>
-    <Toggle/> */}
-    <ThemeToggle/>
+    <Toggle/> 
+     <ColorPicker/>
+    
   </StrictMode>,
 )

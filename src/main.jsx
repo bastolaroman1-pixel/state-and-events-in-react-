@@ -6,15 +6,19 @@ import Toggle from './Toggle'
 
 
 import ColorPicker from './ColorPicker'
+import ThemePick from './ThemePick'
+import VisibilityToggle from './VisibilityToggle'
 
 
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <CounterApp/>
+    {/* <CounterApp/>
     <InputText/>
     <Toggle/> 
-     <ColorPicker/>
+     <ColorPicker/> */}
+     {/* <ThemePick/> */}
+     <VisibilityToggle/>
     
   </StrictMode>,
 )

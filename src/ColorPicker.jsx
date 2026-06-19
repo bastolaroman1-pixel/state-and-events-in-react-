@@ -6,8 +6,7 @@ let ColorPicker=()=>{
         setColor(event.target.value)
     }
 
-    let display=color;
-    console.log(display)
+    
     return(
 
         

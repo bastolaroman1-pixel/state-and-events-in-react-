@@ -1,7 +1,7 @@
 import { useState } from "react"
 
 let ColorPicker=()=>{
-    let [color,setColor]=useState('#f0f2f5')
+    let [color,setColor]=useState('#f5f4f0')
     let colorChange=(event)=>{
         setColor(event.target.value)
     }

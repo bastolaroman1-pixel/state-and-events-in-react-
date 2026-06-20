@@ -8,6 +8,8 @@ import Toggle from './Toggle'
 import ColorPicker from './ColorPicker'
 import ThemePick from './ThemePick'
 import VisibilityToggle from './VisibilityToggle'
+import ImageToggle from './ImageToggle'
+import TrafficLight from './TrafficLight'
 
 
 
@@ -18,7 +20,9 @@ createRoot(document.getElementById('root')).render(
     <Toggle/> 
      <ColorPicker/> */}
      {/* <ThemePick/> */}
-     <VisibilityToggle/>
+     {/* <VisibilityToggle/> */}
+     {/* <ImageToggle/> */}
+     <TrafficLight/>
     
   </StrictMode>,
 )

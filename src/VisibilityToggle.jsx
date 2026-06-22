@@ -4,31 +4,29 @@ import { useState } from "react"
 let VisibilityToggle=()=>{
 let [password,setPassword]=useState("")
     let [isVisible,setVisible]=useState(false)
-    let show=(event)=>{
-        setVisible(event.target.value)
+    let showPassword=()=>{
+        const passwordInput = document.getElementById("myPassword");
+
+        if (passwordInput.type==="password"){
+            passwordInput.type="text"
+        }
+
+        else{
+            passwordInput.type="password"
+        }
 
     }
 
-    let click=()=>{
 
- setVisible(!isVisible)
-
-
-    }
 
     
     return(
 
 <div>
-    <input
-     type={isVisible?"password":"text"}
-        onChange={show}
-     />
-    <br />
 
-    <button onClick={click}>{isVisible?"show":"hide"}</button>
-    
-    <br />
+<input type="password"  id="myPassword" /> <br />
+
+<button onClick={showPassword}>show password</button>
 
     
 </div>

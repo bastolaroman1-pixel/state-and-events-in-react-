@@ -20,9 +20,9 @@ createRoot(document.getElementById('root')).render(
     <Toggle/> 
      <ColorPicker/> */}
      {/* <ThemePick/> */}
-     {/* <VisibilityToggle/> */}
+     <VisibilityToggle/>
      {/* <ImageToggle/> */}
-     <TrafficLight/>
+     {/* <TrafficLight/> */}
     
   </StrictMode>,
 )

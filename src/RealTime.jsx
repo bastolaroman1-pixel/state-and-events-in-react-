@@ -9,7 +9,7 @@ realText(e.target.value)
     }
     return (
         <div>
-<input type="text" placeholder="enter your description "  onChange={inputChange}/>
+<input type="text" placeholder="enter your description "  onChange={inputChange} value="hello"/>
 <br />
 <p>{real}</p>
         </div>
